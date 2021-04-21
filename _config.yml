@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Sunggweon Hyeong
 baseurl:        ""
-url:            "https://cielgrisdemoscou.github.io"
+url:            "https://iosdevted.github.io"
 
 # Assets
 sass:
@@ -17,7 +17,7 @@ markdown:       kramdown
 # About
 author:
   name:         Sunggweon Hyeong
-  url:          "https://cielgrisdemoscou.github.io"
+  url:          "https://iosdevted.github.io"
   email:        devted@protonmail.com 
   github:       cielgrisdemoscou
   #twitter:
@@ -25,4 +25,4 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/cielgrisdemoscou/cielgrisdemocou.github.io
+  repo:         https://github.com/iosdevted/iosdevted.github.io
