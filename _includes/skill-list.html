@@ -1,0 +1,87 @@
+<li class="workplace transition">
+    {% for first in site.data.skills.first-place %}
+    <p class="workplace-name">
+        {{ first.name }}
+    </p>
+    <div class="work-info">
+        <ul>
+            <li>
+                {{ first.skill1 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ first.skill2 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ first.skill3 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ first.skill4 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ first.skill5 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ first.skill6 }}
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+</li>
+<li class="workplace transition">
+    {% for second in site.data.skills.second-place %}
+    <p class="workplace-name">
+        {{ second.name }}
+    </p>
+    <div class="work-info">
+        <ul>
+            <li>
+                {{ second.skill1 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ second.skill2 }}
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+</li>
+<li class="workplace transition">
+    {% for third in site.data.skills.third-place %}
+    <p class="workplace-name">
+        {{ third.name }}
+    </p>
+    <div class="work-info">
+        <ul>
+            <li>
+                {{ third.skill1 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ third.skill2 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ third.skill3 }}
+            </li>
+        </ul>
+        <ul>
+            <li>
+                {{ third.skill4 }}
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+</li>

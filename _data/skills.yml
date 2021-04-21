@@ -1,0 +1,20 @@
+first-place:
+- name: iOS
+  skill1: Swift, SwiftUI
+  skill2: RxSwift, RxCocoa, GCD, Operation
+  skill3: CoreData, Realm, Firebase & Firestore
+  skill4: MapKit, CoreLocation, Geolocation, GeoFire
+  skill5: SnapKit, CoreML, Unit Test
+  skill6: UI/UX (Figma)
+
+second-place:
+- name: Frontend
+  skill1: HTML, CSS, Sass, Javascript, Typescript
+  skill2: ReactJS, Jekyll  
+
+third-place:
+- name: Language
+  skill1: Korean (Native)
+  skill2: Japanese (C2)
+  skill3: English (C1)
+  skill4: French (C1)

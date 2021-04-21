@@ -1,0 +1,49 @@
+<div class="loading-animation">
+<section class="app">
+    <div class="resume-info">
+        <p class="second-label">
+            <h1 id="experience" style="position:relative;">Available on the App Store</h1>
+        </p>
+    </div>    
+    <ul>
+        {% include app-list.html %}
+    </ul>
+</section>
+<section class="resume">
+    <div class="resume-info">
+        <p class="second-label">
+            <h1 id="experience" style="position:relative;">Experience & Education</h1>
+        </p>
+    </div>
+    <ul>
+        {% include project-list.html %}
+    </ul>
+    <!-- "{{ site.baseurl | append: '/project' }}" 포토폴리오 칸으로 이동 "https://github.com/cielgrisdemoscou"-->
+    <a href="https://sunggweon.dev/portfolio/" class="transition"> 
+        <div class="view-all-projects transition">
+            View My Projects
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}</style></defs><path d="M7.2,17.9l6.1-6.1L7.2,5.6,9,3.8l8,8-8,8Z"/><path class="cls-1" d="M.1-.2h24v24H.1Z"/></svg>
+        </div>
+    </a>
+</section>
+<section class="skill">
+    <div class="resume-info">
+        <p class="second-label">
+            <h1 id="experience" style="position:relative;">Skill</h1>
+        </p>
+    </div>    
+    <ul>
+        {% include ios-skill.html %} <!-- 그래프 모드-->
+        <!-- {% include skill-list.html %} 텍스트 모드-->
+        <!-- 원형 텍스트 모드 
+        {% for skill-role in site.data.skill-roles %}
+            <li class="skill_name">
+                {{ skill-role.name }}
+            </li>
+        {% endfor %}
+        -->
+    </ul>
+</section>
+</div> 
+<br>
+<br>
