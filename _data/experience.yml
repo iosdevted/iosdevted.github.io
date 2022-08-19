@@ -1,19 +1,9 @@
-fourth-place:
-- name: Université Paris 8
-  role: Computer Science Student
-  date: 2020. SEP - Present
+second-place:
+- name: Happn
+  role: iOS Developer
+  date: 2021. OCT - Present
 
-third-place:
+first-place:
 - name: Ministry of National Defense
   role: Cryptologic Linguist
   date: 2018. SEP - 2020. JUL 
-
-second-place:
-- name: WHP Japan
-  role: Temporary Employee
-  date: 2017. SEP - 2018. SEP 
-
-first-place:
-- name: Université Lyon 1
-  role: Engineering Student
-  date: 2016. SEP - 2017. JUL
